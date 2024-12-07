@@ -20,7 +20,7 @@ const Home = () => {
                     <h1>Welcome to Project Management System</h1>   
 
                     <p>
-                        Welcome to the project management system of the CSE departmant of College Of Engineering Trivandrum, <br></br>where you can find
+                        Welcome to the project management system of the CSE departmant of CET, <br></br>where you can find
                         previous year projects, guides, and also check the similarity 
                         of your abstracts.
                     </p>
