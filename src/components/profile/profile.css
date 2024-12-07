@@ -1,0 +1,142 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 100px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+
+.profileall{
+    margin-top: 20px;
+    border-radius: 5px; 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.profileall h1{
+    font-weight: 800;
+    color: #00143d;
+}
+
+.profiledetails{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(9, 133, 73);
+    border: 2px solid;
+}
+
+.profiledivison1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 10px;
+}
+
+.profiledivison1 h2{
+    color: #fff;
+ 
+}
+.profiledivison2{
+    background-color: #ffffff;
+    border-radius: 2px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: fit-content;
+    padding: 10px;
+    gap: 5px;
+}
+
+.profileeachdetail{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    box-shadow:2px 2px 2px 2px rgb(101, 101, 101) ;
+    color: black;
+}
+
+.profileeachdetail label {
+    display: inline-block;
+    margin-right: 10px;  
+    width: 100px;
+    font-weight:400;
+  }
+  
+.proin{
+    border: none;
+    font-weight: 800;
+    color: rgb(9, 133, 73);
+    outline: none;
+}
+
+.profbut{
+    background: rgb(9, 133, 73);
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.guideskill{
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.guideaof{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.table{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background: #00143d;
+    border-radius: 5px;
+}
+
+.listheading{
+    font-weight: 200;
+    color: #fff;
+ }
+
+ .projectsitemguided{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+ }
+
+.projecteachitem{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background: rgb(9, 133, 73);
+}
+
+
+
+
+

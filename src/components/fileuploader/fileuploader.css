@@ -1,0 +1,36 @@
+.inputupload{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customfile{
+    max-width: 580px;
+    display: flex;
+    font-weight: 700;
+    background: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.upbut{
+    background: aliceblue;
+    border: none;
+    font-size: medium;
+    outline: none;
+    font-weight: 600;
+    color: black;
+    border-radius: 5px;
+}
+
+.upbut:active{
+    box-shadow: 2px 2px 1px 1px black;
+    outline: none;
+}
+
+.loadstatus{
+    border: none;
+    border-radius: 2px;
+}
+

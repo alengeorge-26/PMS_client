@@ -1,0 +1,54 @@
+.addguide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap:10px
+}
+
+.inputform{
+    background: rgb(172, 189, 220);
+    box-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputuserdet{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputuserdetlab{
+    color: rgb(4, 4, 4);
+}
+
+.guideinput{
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 100%;
+    outline: none;
+    font-weight: bolder;
+}
+
+.guidebut{
+    background: #00143d;
+    box-shadow: 2px 2px 1px 1px rgb(15, 4, 0);
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 20%;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.guidebut:active{
+    transform: scale(1.05);
+}
+
+
+

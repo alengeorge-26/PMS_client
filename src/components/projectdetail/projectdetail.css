@@ -1,0 +1,71 @@
+.projectdetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.projectdetail h1{
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.projectdesc{
+    margin-top: 30px;
+    width: 90%;
+    border: none;
+    box-shadow: 2px 3px 1px 1px rgb#a4afc9;
+}
+
+.projectdetailcontainer{
+    margin-top: 20px;
+    color: black;
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.division{
+    box-shadow: 2px 2px 1px 1px #a4afc9;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.divsionspan{
+    padding-left: 5px;
+    font-weight: 600;
+    background: #a4afc9;
+}
+
+.memtablerow{
+    background: #a4afc9;
+}
+
+.projectsubbut{
+    background:#047c6a;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.docbut{
+    background: rgb(1, 37, 121);
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.memtable{
+    box-shadow: 2px 2px 1px 1px #a4afc9;
+    table-layout: fixed;
+    border:none;
+    outline: none;
+    text-align:justify
+}
