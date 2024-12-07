@@ -1,5 +1,5 @@
 import axios from "axios"
 
 export default axios.create({
-    baseURL:"http://localhost:10000/api"
+    baseURL:"https://pms-server-7jwg.onrender.com/api"
 });
